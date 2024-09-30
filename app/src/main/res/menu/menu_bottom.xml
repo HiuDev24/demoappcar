@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_home"
+        android:title="@string/action_home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item android:id="@+id/action_notica"
+        android:title="@string/action_notica"
+        android:icon="@drawable/ic_baseline_notifications_none_24"/>
+    <item android:id="@+id/action_bus"
+        android:title="@string/action_bus"
+        android:icon="@drawable/ic_baseline_bus_alert_24"/>
+    <item android:id="@+id/action_support"
+        android:title="@string/action_support"
+        android:icon="@drawable/ic_baseline_support_agent_24"/>
+    <item android:id="@+id/action_accout"
+        android:title="@string/action_accout"
+        android:icon="@drawable/ic_baseline_account_circle_24"/>
+</menu>

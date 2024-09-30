@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">THUEXE</string>
+    <string name="action_home">Khám Phá</string>
+    <string name="action_notica">Thông Báo</string>
+    <string name="action_bus">Chuyến</string>
+    <string name="action_support">Hỗ Trợ</string>
+    <string name="action_accout">Cá Nhân</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

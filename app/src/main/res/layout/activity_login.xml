@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/click"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#038311"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/backk3"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/ic_baseline_arrow_back_24" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="ĐĂNG NHẬP"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/logodk"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:src="@drawable/dn"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        android:gravity="center">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/Username"
+            android:hint="   Số điện thoại hoặc email"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edUserename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_outline_perm_phone_msg_24" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/Password"
+            android:hint="Mật Khẩu"
+            app:endIconMode="password_toggle"
+            app:startIconDrawable="@drawable/ic_baseline_lock_24"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Đăng Nhập"
+            android:layout_gravity="center"
+            android:backgroundTint="#038311"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:id="@+id/btShowCustomAlertDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="5dp"
+            android:hint="Quên Mật Khẩu"
+            android:onClick="btShowCustomAlertDialog_click"
+           android:textColorHint="@color/black"
+            android:background="#00000000"
+            />
+    </LinearLayout>
+</LinearLayout>
